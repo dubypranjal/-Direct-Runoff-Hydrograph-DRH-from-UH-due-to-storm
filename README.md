@@ -1,7 +1,7 @@
 #include <stdio.h> 
 #include <stdlib.h> 
 int main(void) 
-{ 
+{  
 int nU, nR; 
 printf("Enter number of Unit Hydrograph ordinates (nU): "); 
 if (scanf("%d", &nU) != 1 || nU <= 0) { 
